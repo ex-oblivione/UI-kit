@@ -1,0 +1,22 @@
+@import "./color.scss";
+@import "./components/header.scss";
+
+@font-face {
+  font-family: "Montserrat-Regular";
+  src: url("./fonts/Montserrat-Regular.ttf") format("ttf"),
+    url("./fonts/Montserrat-Regular.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+
+li {
+  list-style: none;
+}
+
+// Осталось от тестовой версии для наройки вебпака
+// $bg-color: #ffebcd;
+
+// body {
+//   background-color: $bg-color;
+//   font-family: "Montserrat-Regular";
+// }
