@@ -1,11 +1,23 @@
 .header {
-  height: 70px;
   align-items: center;
+  // Временный цвет для наглядности
+  background-color: fuchsia;
+
+  &__logo {
+    width: 105.69px;
+    height: 40px;
+  }
 }
 
 .container {
-  margin: 0 auto;
+  // Временный цвет для наглядности
+  background-color: azure;
+  margin: auto;
+  height: 70px;
   width: 1160px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .menu {
@@ -29,7 +41,7 @@
   }
 
   &__item {
-    margin-right: 20px;
+    margin-left: 20px;
   }
 
   // Потом сделать градиент для border.

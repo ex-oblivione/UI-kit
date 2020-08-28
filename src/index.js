@@ -1,6 +1,6 @@
 import './style.css';
 import './style.scss';
-
+import './assets/images/Logo.jpg';
 
 // Осталось от тестовой версии для настройки вебпака
 // let sum = function (a, b) {
