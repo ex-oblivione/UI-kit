@@ -1,6 +1,7 @@
-@import "./assets/styles/color.scss";
-@import "./assets/styles/text.scss";
-@import "./components/header.scss";
+@import "./common-styles/color.scss";
+@import "./common-styles/text.scss";
+@import "./blocks/components/header.scss";
+@import "./blocks/form-elements/text-field.scss";
 
 @font-face {
   font-family: "Montserrat-Regular";

@@ -1,4 +1,3 @@
-import './style.css';
 import './style.scss';
 import './assets/images/Logo.jpg';
 
