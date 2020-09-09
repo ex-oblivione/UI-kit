@@ -1,32 +1,15 @@
-.checkbox {
-  display: none;
+.title {
+  margin-bottom: 16.56px;
 }
 
-.label {
-  margin: 30px;
-  display: inline-block;
-  width: 20px;
-  height: 20px;
-  border: 1px solid $purple;
-  border-radius: 4px;
-  position: relative;
+.checkbox-line {
+  display: flex;
+  margin-bottom: 10px;
 }
 
-.box::before {
-  content: "";
-  position: absolute;
-  top: 45%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  display: block;
-  width: 10px;
-  height: 10px;
-  background: url(./assets/images/Box.png) no-repeat;
-  opacity: 0;
+.checkbox-text {
+  padding-top: 1px;
+  line-height: 19px;
+  color: $darkShade50;
+  margin-left: 10px;
 }
-
-.checkbox:checked + .box::before {
-  opacity: 1;
-}
-
-// Переделать с учетом того, что в ненажатом состоянии чекбокс серый. А в нажатом пурпурный

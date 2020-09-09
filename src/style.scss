@@ -2,6 +2,7 @@
 @import "./common-styles/text.scss";
 @import "./blocks/components/header.scss";
 @import "./blocks/form-elements/text-field.scss";
+@import "./blocks/form-elements/checkbox-buttons/checkbox-item.scss";
 @import "./blocks/form-elements/checkbox-buttons/checkbox-buttons.scss";
 
 @font-face {
@@ -10,6 +11,13 @@
     url("./assets/fonts/Montserrat-Regular.woff") format("woff");
   font-weight: 400;
   font-style: normal;
+}
+@font-face {
+  font-family: "Montserrat-Bold";
+  src: url("./assets/fonts/Montserrat-Bold.ttf") format("ttf"),
+    url("./assets/fonts/Montserrat-Bold.woff") format("woff");
+  font-weight: 700;
+  font-style: bold;
 }
 @font-face {
   font-family: "Quicksand-Regular";
@@ -22,13 +30,8 @@
 * {
   margin: 0;
   padding: 0;
+  color: $darkShade100;
 }
-
-// body {
-//   font-family: Montserrat-Regular;
-//   font-size: 14px;
-//   line-height: 24px;
-// }
 
 a {
   text-decoration: none;
@@ -45,3 +48,24 @@ li {
 //   background-color: $bg-color;
 //   font-family: "Montserrat-Regular";
 // }
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  box-sizing: border-box;
+}
+
+span {
+  margin: 0;
+  padding: 0;
+}

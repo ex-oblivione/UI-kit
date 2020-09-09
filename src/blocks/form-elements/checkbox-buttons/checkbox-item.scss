@@ -1,0 +1,27 @@
+.checkbox {
+  display: flex;
+  align-items: top;
+
+  &__input {
+    display: none;
+    &:checked + .checkbox__box {
+      border-color: $purple;
+      background-position: 50% 45%;
+      background-repeat: no-repeat;
+      background-image: url(./assets/images/Box.png);
+    }
+  }
+
+  &__box {
+    display: inline-block;
+    box-sizing: border-box;
+    min-width: 20px;
+    width: 20px;
+    height: 20px;
+    border: 1px solid $darkShade25;
+    border-radius: 4px;
+    &:hover {
+      border-color: $purple;
+    }
+  }
+}
