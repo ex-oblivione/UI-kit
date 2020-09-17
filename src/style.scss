@@ -6,6 +6,7 @@
 @import "./blocks/form-elements/checkbox-buttons/checkbox-buttons.scss";
 @import "./blocks/form-elements/radio-buttons/radio-buttons.scss";
 @import "./blocks/form-elements/toggle/toggle.scss";
+@import "./blocks/form-elements/like-button/like-button.scss";
 
 @font-face {
   font-family: "Montserrat-Regular";
@@ -28,6 +29,17 @@
   font-weight: 400;
   font-style: normal;
 }
+
+// @font-face {
+//   font-family: "Material Icons";
+//   font-style: normal;
+//   font-weight: 400;
+//   src: url(https://example.com/MaterialIcons-Regular.eot); /* For IE6-8 */
+//   src: local("Material Icons"), local("MaterialIcons-Regular"),
+//     url(https://example.com/MaterialIcons-Regular.woff2) format("woff2"),
+//     url(https://example.com/MaterialIcons-Regular.woff) format("woff"),
+//     url(https://example.com/MaterialIcons-Regular.ttf) format("truetype");
+// }
 
 * {
   margin: 0;

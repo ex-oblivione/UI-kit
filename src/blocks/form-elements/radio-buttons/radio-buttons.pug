@@ -1,16 +1,5 @@
-div
-  label.radio#radio-first
-    input.radio__input(
-      type='radio'
-      name='name1'
-    )
-    span.radio__btn
-    span.text Мужчина
+include ./radio-button
 
-  label.radio
-    input.radio__input(
-      type='radio'
-      name='name1'
-    )
-    span.radio__btn
-    span.text Женщина
+div
+  +radio-btn({'label-id': 'radio-first', name: 'name', text: 'Мужчина'})
+  +radio-btn({name: 'name', text: 'Женщина'})

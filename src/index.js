@@ -4,6 +4,7 @@ import './assets/images/Box.png'
 import './blocks/form-elements/masked-text-field'
 
 
+
 // Осталось от тестовой версии для настройки вебпака
 // let sum = function (a, b) {
 //   return a + b;
