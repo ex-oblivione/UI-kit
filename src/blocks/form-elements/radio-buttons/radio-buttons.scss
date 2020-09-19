@@ -46,20 +46,19 @@ div {
 .text {
   padding-left: 10px;
   color: $darkShade50;
-  &:hover {
-    color: $darkShade75;
-  }
 }
 
 .radio__input:checked + .radio__btn {
   border-color: $purple;
 }
 
-.radio__input:checked + .radio__btn::after {
+.radio__input:checked ~ .radio__btn::after {
   opacity: 1;
-  color: $darkShade75;
 }
 
+.radio__input:hover ~ .radio__btn,
+.radio__input:hover ~ .text,
 .radio__input:checked ~ .text {
   color: $darkShade75;
+  border-color: $purple;
 }
