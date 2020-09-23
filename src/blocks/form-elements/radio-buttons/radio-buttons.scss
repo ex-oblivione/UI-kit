@@ -46,6 +46,7 @@ div {
 .text {
   padding-left: 10px;
   color: $darkShade50;
+  user-select: none;
 }
 
 .radio__input:checked + .radio__btn {

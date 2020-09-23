@@ -1,0 +1,59 @@
+.like {
+  display: flex;
+  align-items: center;
+  // margin: 20px;
+
+  &__btn {
+    display: flex;
+    align-items: center;
+    position: relative;
+    width: 40px;
+    height: 20px;
+    border: 1px solid $darkShade25;
+    box-sizing: border-box;
+    border-radius: 10px;
+    font-size: 10px;
+  }
+
+  &__input {
+    display: none;
+  }
+
+  .material-icons {
+    position: absolute;
+    left: 4px;
+    font-size: 10px;
+    line-height: 9px;
+  }
+
+  #heart-unchecked {
+    color: $darkShade25;
+  }
+
+  #heart-checked {
+    opacity: 0;
+    color: $purple;
+  }
+
+  .like__counter {
+    position: absolute;
+    left: 21px;
+    font-size: 10px;
+    line-height: 12px;
+    color: $darkShade25;
+    user-select: none;
+  }
+
+  &__input:checked ~ .like__btn {
+    border-color: $purple;
+  }
+
+  &__input:checked ~ .like__btn > #heart-checked {
+    opacity: 1;
+  }
+
+  // Сделать нормальный счетчик лайков
+  &__input:checked ~ .like__btn > .like__counter {
+    color: $purple;
+  }
+}

@@ -1,13 +1,14 @@
 @import "./common-styles/color.scss";
 @import "./common-styles/text.scss";
 @import "./blocks/components/header.scss";
-@import "./blocks/form-elements/text-field.scss";
+@import "./blocks/form-elements/text-field/text-field.scss";
 @import "./blocks/form-elements/checkbox-buttons/checkbox-item.scss";
 @import "./blocks/form-elements/checkbox-buttons/checkbox-buttons.scss";
 @import "./blocks/form-elements/radio-buttons/radio-buttons.scss";
 @import "./blocks/form-elements/toggle/toggle.scss";
 @import "./blocks/form-elements/like-button/like-button.scss";
 @import "./blocks/form-elements/rate-button/rate-button.scss";
+@import "./blocks/form-elements/dropdown/dropdown.scss";
 
 @font-face {
   font-family: "Montserrat-Regular";

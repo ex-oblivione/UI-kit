@@ -1,0 +1,9 @@
+mixin radio-btn(options)
+  label.radio(id= options['label-id'])
+    input.radio__input(
+      type='radio'
+      name= options.name || 'default-name'
+    )
+    span.radio__btn
+    span.text= options.text || 'value'
+
