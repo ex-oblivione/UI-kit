@@ -1,25 +1,27 @@
 .dropdown
-  .text-field.dropdown__btn Сколько гостей
-    .dropdown__expand-symbol expand_more
+  .dropdown__btn Сколько гостей
+    span.dropdown__expand-symbol expand_more
   .dropdown__content
     .dropdown__content-item
-      h3 ВЗРОСЛЫЕ
-      .dropdown__content-left
-        span.drop-content-round-btn -
-        h3 0
-        span.drop-content-round-btn.round-btn-plus +
+      span ВЗРОСЛЫЕ
+      .dropdown__content-counter
+        span.dropdown__content-counter-btn -
+        span.dropdown__content-counter-value 0
+        span.dropdown__content-counter-btn.dropdown__content-counter-btn_plus +
     .dropdown__content-item
-      h3 ДЕТИ
-      .dropdown__content-left
-        span.drop-content-round-btn -
-        h3 0
-        span.drop-content-round-btn.round-btn-plus +
+      span ДЕТИ
+      .dropdown__content-counter
+        span.dropdown__content-counter-btn -
+        span.dropdown__content-counter-value 0
+        span.dropdown__content-counter-btn.dropdown__content-counter-btn_plus +
     .dropdown__content-item
-      h3 МЛАДЕНЦЫ
-      .dropdown__content-left
-        span.drop-content-round-btn -
-        h3 0
-        span.drop-content-round-btn.round-btn-plus +
+      span МЛАДЕНЦЫ
+      .dropdown__content-counter
+        span.dropdown__content-counter-btn -
+        span.dropdown__content-counter-value 0
+        span.dropdown__content-counter-btn.dropdown__content-counter-btn_plus +
     .dropdown__bottom-item
-      h3.drop-bottom-clear ОТЧИСТИТЬ
-      h3.drop-bottom-apply ПРИМЕНИТЬ
+      span.dropdown__bottom-item-clear ОТЧИСТИТЬ
+      span.dropdown__bottom-item-apply ПРИМЕНИТЬ
+
+.red
