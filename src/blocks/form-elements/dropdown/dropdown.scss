@@ -73,7 +73,7 @@
     justify-content: space-between;
   }
 
-  &__content-counter-btn {
+  &__content-counter-btn_minus {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -85,11 +85,20 @@
     border-radius: 50%;
     font-family: Montserrat-Regular;
     font-size: 18px;
+  }
 
-    &_plus {
-      border-color: $darkShade50;
-      color: $darkShade50;
-    }
+  &__content-counter-btn_plus {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    border: 1px solid $darkShade50;
+    color: $darkShade50;
+    box-sizing: border-box;
+    border-radius: 50%;
+    font-family: Montserrat-Regular;
+    font-size: 18px;
   }
 
   &__bottom-item {
