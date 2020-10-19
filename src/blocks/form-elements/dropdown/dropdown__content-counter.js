@@ -1,9 +1,6 @@
 let dropdown = $('.dropdown');
 let placeholder = $('.dropdown__placeholder').text('Сколько гостей');
 
-console.log(placeholder.text());
-
-
 $.each(dropdown, function (index) {
 
   let item = $('.dropdown__content-item'),

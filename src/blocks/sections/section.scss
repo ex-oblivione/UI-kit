@@ -1,0 +1,19 @@
+.section {
+  position: relative;
+  max-width: 330px;
+  box-sizing: border-box;
+  display: flex;
+  flex-flow: row wrap;
+  &_1 {
+    margin-right: 126px;
+  }
+}
+
+.form-element_1 {
+  display: block;
+  padding-bottom: 20px;
+}
+
+.form-element__title {
+  padding-bottom: 5px;
+}

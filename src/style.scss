@@ -9,6 +9,7 @@
 @import "./blocks/form-elements/like-button/like-button.scss";
 @import "./blocks/form-elements/rate-button/rate-button.scss";
 @import "./blocks/form-elements/dropdown/dropdown.scss";
+@import "./blocks/sections/section.scss";
 
 @font-face {
   font-family: "Montserrat-Regular";
@@ -43,6 +44,7 @@
 //     url(https://example.com/MaterialIcons-Regular.ttf) format("truetype");
 // }
 
+// Обнуление.
 * {
   margin: 0;
   padding: 0;
@@ -57,31 +59,14 @@ li {
   list-style: none;
 }
 
-// Осталось от тестовой версии для наройки вебпака
-// $bg-color: #ffebcd;
+// Задание стилей.
+body {
+  max-width: 1440px;
+  margin: auto;
+}
 
-// body {
-//   background-color: $bg-color;
-//   font-family: "Montserrat-Regular";
-// }
-
-// *,
-// *::before,
-// *::after {
-//   margin: 0;
-//   padding: 0;
-//   box-sizing: inherit;
-// }
-
-// html {
-//   font-size: 62.5%;
-// }
-
-// body {
-//   box-sizing: border-box;
-// }
-
-// span {
-//   margin: 0;
-//   padding: 0;
-// }
+.page {
+  position: relative;
+  display: flex;
+  padding: 140px;
+}

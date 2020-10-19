@@ -2,8 +2,6 @@
   position: relative;
   display: inline-block;
   user-select: none;
-  // временный параметр
-  margin: 30px;
 
   &__btn {
     align-items: center;
@@ -115,9 +113,4 @@
       color: $purple;
     }
   }
-}
-
-.red {
-  background-color: yellowgreen;
-  height: 500px;
 }
