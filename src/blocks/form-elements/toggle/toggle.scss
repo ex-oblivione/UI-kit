@@ -1,6 +1,14 @@
 .toggle {
   display: flex;
   align-items: center;
+  cursor: pointer;
+  &:hover input ~ .toggle__switch {
+    border-color: $purple;
+  }
+
+  &:hover input ~ .toggle__text {
+    color: $darkShade75;
+  }
 
   &__input {
     display: none;
@@ -58,7 +66,7 @@
 
   &__text {
     padding-left: 10px;
-    color: $darkShade75;
+    color: $darkShade50;
     user-select: none;
   }
 }

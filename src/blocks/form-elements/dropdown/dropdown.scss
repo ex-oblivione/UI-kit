@@ -13,6 +13,7 @@
     border-radius: 4px;
     color: $darkShade75;
     padding-left: 14px;
+    cursor: pointer;
 
     &:hover {
       border-color: $darkShade50;
@@ -83,6 +84,7 @@
     border-radius: 50%;
     font-family: Montserrat-Regular;
     font-size: 18px;
+    cursor: pointer;
   }
 
   &__content-counter-btn_plus {
@@ -97,6 +99,7 @@
     border-radius: 50%;
     font-family: Montserrat-Regular;
     font-size: 18px;
+    cursor: pointer;
   }
 
   &__bottom-item {
@@ -107,10 +110,12 @@
 
     &-clear {
       color: $darkShade50;
+      cursor: pointer;
     }
 
     &-apply {
       color: $purple;
+      cursor: pointer;
     }
   }
 }

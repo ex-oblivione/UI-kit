@@ -1,9 +1,6 @@
-label.checkbox-line
-  include checkbox-item
-  span.checkbox-text Можно курить
-label.checkbox-line
-  include checkbox-item
-  span.checkbox-text Можно с питомцами
-label.checkbox-line
-  include checkbox-item
-  span.checkbox-text Можно пригласить гостей (до 10 человек)
+include ./checkbox-item
+
+.checkbox-container
+  +checkbox({text: 'Можно курить'})
+  +checkbox({text: 'Можно с питомцами'})
+  +checkbox({text: 'Можно пригласить гостей (до 10 человек)'})

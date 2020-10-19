@@ -1,7 +1,7 @@
-label.checkbox
-  input.checkbox__input(
-    type='checkbox'
-  )
-  span.checkbox__box
-
-//- Переделать в миксины. Сделать так, что при щелчке по надпили чекбокс тоже.
+mixin checkbox(options)
+  label.checkbox
+    input.checkbox__input(
+      type='checkbox'
+    )
+    span.checkbox__box
+    span.checkbox__text= options.text

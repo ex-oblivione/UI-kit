@@ -3,12 +3,13 @@ div {
 }
 
 #radio-first {
-  padding-right: 20px;
+  margin-right: 20px;
 }
 
 .radio {
-  display: flex;
+  display: inline-flex;
   align-items: center;
+  cursor: pointer;
 
   &__input {
     display: none;

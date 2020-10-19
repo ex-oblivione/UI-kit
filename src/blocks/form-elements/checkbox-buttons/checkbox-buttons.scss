@@ -1,16 +1,6 @@
-.title {
-  margin-bottom: 17px;
-}
-
-.checkbox-line {
-  display: flex;
-  margin-bottom: 10px;
-}
-
-.checkbox-text {
-  padding-top: 1px;
-  line-height: 19px;
-  color: $darkShade50;
-  margin-left: 10px;
-  user-select: none;
+.checkbox-container {
+  display: block;
+  max-width: 200px;
+  box-sizing: border-box;
+  position: relative;
 }
