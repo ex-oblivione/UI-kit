@@ -24,6 +24,7 @@ div {
     border: 1px solid $darkShade25;
     position: relative;
     border-radius: 50%;
+    transition: border-color 0.2s;
     &:hover {
       border-color: $purple;
     }
@@ -48,6 +49,7 @@ div {
   padding-left: 10px;
   color: $darkShade50;
   user-select: none;
+  transition: color 0.2s;
 }
 
 .radio__input:checked + .radio__btn {
