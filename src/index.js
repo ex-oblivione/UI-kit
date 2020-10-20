@@ -5,6 +5,6 @@ import './blocks/form-elements/dropdown/dropdown'
 import './blocks/form-elements/dropdown/dropdown__content-counter'
 
 // Отключение transition при загрузке страницы.
-$("window").load(function () {
-  $("body").removeAttr("id");
-});
+// $("window").load(function () {
+//   $("body").removeAttr("id");
+// });

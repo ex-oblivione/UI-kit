@@ -57,7 +57,7 @@
     opacity: 1;
   }
 
-  // Сделать нормальный счетчик лайков
+  // Сделать нормальный счетчик лайков.
   &__input:checked ~ .like__btn > .like__counter {
     color: $purple;
   }

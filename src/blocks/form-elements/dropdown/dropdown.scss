@@ -4,6 +4,7 @@
   user-select: none;
 
   &__btn {
+    display: flex;
     align-items: center;
     position: relative;
     width: 320px;
@@ -13,7 +14,7 @@
     border-radius: 4px;
     color: $darkShade75;
     padding-left: 14px;
-    transition: border-color 0.2s;
+    transition: border-color 0.2s linear;
     cursor: pointer;
 
     &:hover {
