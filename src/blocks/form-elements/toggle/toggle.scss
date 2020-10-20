@@ -16,6 +16,9 @@
     &:checked ~ .toggle__switch {
       border-color: $purple;
     }
+    &:checked ~ .toggle__text {
+      color: $darkShade75;
+    }
     &:checked ~ .toggle__switch::before {
       left: 23px;
       opacity: 0;

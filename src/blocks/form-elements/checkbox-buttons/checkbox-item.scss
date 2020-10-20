@@ -2,17 +2,23 @@
   display: inline-flex;
   cursor: pointer;
   margin-bottom: 10px;
-  &:hover input ~ .checkbox__box {
+  &:hover input ~ .checkbox__box,
+  &:hover input ~ .checkbox__text {
     border-color: $purple;
+    color: $darkShade75;
   }
 
   &__input {
     display: none;
     &:checked + .checkbox__box {
       border-color: $purple;
+      color: $darkShade75;
       background-position: 50% 45%;
       background-repeat: no-repeat;
       background-image: url(./assets/images/Box.png);
+    }
+    &:checked ~ .checkbox__text {
+      color: $darkShade75;
     }
   }
 
@@ -30,5 +36,6 @@
     color: $darkShade50;
     margin-left: 10px;
     user-select: none;
+    transition: color 0.2s;
   }
 }
