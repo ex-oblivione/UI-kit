@@ -1,6 +1,10 @@
 .like {
-  display: flex;
-  align-items: center;
+  display: block;
+  user-select: none;
+
+  &__input {
+    display: none;
+  }
 
   &__btn {
     display: flex;
@@ -18,10 +22,6 @@
     &:hover {
       border-color: $purple;
     }
-  }
-
-  &__input {
-    display: none;
   }
 
   .material-icons {

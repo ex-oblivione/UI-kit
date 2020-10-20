@@ -1,6 +1,6 @@
 @import "./common-styles/color.scss";
 @import "./common-styles/text.scss";
-@import "./blocks/components/header.scss";
+// @import "./blocks/components/header.scss";
 @import "./blocks/form-elements/text-field/text-field.scss";
 @import "./blocks/form-elements/checkbox-buttons/checkbox-item.scss";
 @import "./blocks/form-elements/checkbox-buttons/checkbox-buttons.scss";
@@ -57,6 +57,15 @@ a {
 
 li {
   list-style: none;
+}
+
+// Отключение transition при загрузке страницы.
+#transition-disabled {
+  transition: none !important;
+  -webkit-transition: none !important;
+  -moz-transition: none !important;
+  -ms-transition: none !important;
+  -o-transition: none !important;
 }
 
 // Задание стилей.
