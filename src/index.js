@@ -4,6 +4,8 @@ import './blocks/form-elements/masked-text-field/masked-text-field'
 import './blocks/form-elements/dropdown/dropdown'
 import './blocks/form-elements/dropdown/dropdown__content-counter'
 import './blocks/form-elements/dropdown/dropdown__apply-and-clear'
+import './blocks/form-elements/range-slider/range-slider'
+
 
 // Отключение transition при загрузке страницы.
 // $("window").load(function () {
